@@ -1,0 +1,11 @@
+model,true_identity,predicted_identity,count
+Custom_CNN,2619,2336,1
+Custom_CNN,2619,3,1
+Custom_CNN,2970,4422,2
+Custom_CNN,4422,2970,1
+Custom_CNN,797,2336,1
+Custom_CNN,797,2619,1
+ResNet_Frozen,2970,4422,1
+ResNet_Frozen,4422,2970,1
+ResNet_Frozen,797,3,1
+ResNet_Finetuned,797,4422,1

@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "batch_size": 8,
+  "epochs": 20,
+  "selected_ids": [
+    2619,
+    797,
+    2970,
+    4422,
+    3,
+    2336
+  ],
+  "class_names": [
+    "2336",
+    "2619",
+    "2970",
+    "3",
+    "4422",
+    "797"
+  ],
+  "source_hashes": {
+    "src/config.py": "5e42168d713d12a198a48d80edb8ade114859cdb44306de0c99be9234c4f59c2",
+    "src/data_utils.py": "2326cb58d0dca45b44730a43dd0ed08878845b9892ff556b7743fd2f0fc5fb67",
+    "src/experiment.py": "b83a6baffda1c98792231a0ea31ddb684ff7d0d1a7065daa534fce9543c0fad9",
+    "src/models.py": "4d9d549dfb9c2dc0fef11cc6bb159fe5728f5c4b78731ba93af1934a2da058ca",
+    "src/reporting.py": "8acc827a399e2a2502d5cd9fe9151cff88bfd4a0aed00a23f1f2dd436b51b1b1",
+    "utils.py": "1cd7141e395eaf537f882356d3067d70d6d7dc277b93bed035a78f8545728963",
+    "requirements.txt": "53115d284074f03d6e39d570882e7c191b52b685568832e46e53835f44db04c2"
+  }
+}

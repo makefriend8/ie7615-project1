@@ -1,0 +1,13 @@
+# Classification experiment dependencies.
+# Python 3.10. GPU drivers are configured as part of the execution environment.
+tensorflow==2.19.0
+keras==3.9.0
+numpy==1.26.4
+pandas==2.1.4
+scikit-learn==1.4.2
+matplotlib==3.7.5
+seaborn==0.13.2
+tensorboard==2.19.0
+ipykernel==6.29.5
+jupyterlab==4.3.6
+Pillow  # Image validation and decoded-pixel hashing.

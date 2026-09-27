@@ -1,0 +1,20 @@
+{
+  "model": "ResNet_Finetuned",
+  "inference_ms_median": 144.18085385113955,
+  "inference_repeats": 30,
+  "inference_batch_size": 1,
+  "total_parameters": 23577094,
+  "trainable_parameters": 23531654,
+  "training_seconds": 53.335374569520354,
+  "epochs_completed": 16,
+  "best_epoch": 11,
+  "best_val_loss": 0.029986506327986717,
+  "test_accuracy": 0.9583333333333334,
+  "test_loss": 0.17832998931407928,
+  "correct": 23,
+  "test_count": 24,
+  "seed": 42,
+  "learning_rate": 9.999999747378752e-05,
+  "batch_size": 8,
+  "checkpoint_sha256": "4b9e803dcc20947c7ab3cb818db3ecb5bf5bcbc56904754ef4412b87fbc39d68"
+}

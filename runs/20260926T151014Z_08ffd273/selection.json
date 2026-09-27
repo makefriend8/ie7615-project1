@@ -1,0 +1,13 @@
+{
+  "model": "ResNet_Finetuned",
+  "criterion": "minimum validation loss; trainable parameters break ties",
+  "checkpoint": "ResNet_Finetuned/best.weights.h5",
+  "class_names": [
+    "2336",
+    "2619",
+    "2970",
+    "3",
+    "4422",
+    "797"
+  ]
+}

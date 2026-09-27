@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "rtol": 1e-05,
+  "atol": 1e-06,
+  "test_images": 24
+}

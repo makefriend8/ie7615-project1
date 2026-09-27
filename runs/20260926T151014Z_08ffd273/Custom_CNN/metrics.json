@@ -1,0 +1,20 @@
+{
+  "model": "Custom_CNN",
+  "inference_ms_median": 6.416965276002884,
+  "inference_repeats": 30,
+  "inference_batch_size": 1,
+  "total_parameters": 11963782,
+  "trainable_parameters": 11963782,
+  "training_seconds": 15.04168495349586,
+  "epochs_completed": 20,
+  "best_epoch": 19,
+  "best_val_loss": 0.5214806199073792,
+  "test_accuracy": 0.7083333333333334,
+  "test_loss": 0.6975105404853821,
+  "correct": 17,
+  "test_count": 24,
+  "seed": 42,
+  "learning_rate": 0.0010000000474974513,
+  "batch_size": 8,
+  "checkpoint_sha256": "939f48613706782797d4afa765aee6162334b9bf2e092dd155dd5a51eecd0155"
+}

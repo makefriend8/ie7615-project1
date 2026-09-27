@@ -1,0 +1,20 @@
+{
+  "model": "ResNet_Frozen",
+  "inference_ms_median": 144.67845670878887,
+  "inference_repeats": 30,
+  "inference_batch_size": 1,
+  "total_parameters": 23577094,
+  "trainable_parameters": 12294,
+  "training_seconds": 24.213733224198222,
+  "epochs_completed": 20,
+  "best_epoch": 16,
+  "best_val_loss": 0.35264649987220764,
+  "test_accuracy": 0.875,
+  "test_loss": 0.32985079288482666,
+  "correct": 21,
+  "test_count": 24,
+  "seed": 42,
+  "learning_rate": 0.0010000000474974513,
+  "batch_size": 8,
+  "checkpoint_sha256": "58cff4034ea8723b2a8c1e3a5ed43a6d8ac517156c775cb227204ee413d3895b"
+}
