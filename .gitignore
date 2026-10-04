@@ -1,6 +1,14 @@
-﻿/data/
+# Commit the compact Milestone 2 train/val/test dataset, not source portraits.
+/data/*
+!/data/m2_detection/
+/data/m2_detection/*
+!/data/m2_detection/images/
+!/data/m2_detection/labels/
+!/data/m2_detection/ta_grids/
 /TA_Share_Pool/
 *.zip
+/tests/
+/docs/
 
 # Keep model checkpoints in the experiment storage.
 *.weights.h5

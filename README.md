@@ -1,4 +1,4 @@
-# Celebrity Image Classification
+# Celebrity Identification and Detection
 
 This project compares a custom CNN, a frozen ResNet50V2 feature extractor and a fine-tuned ResNet50V2 for classifying six CelebA identities using TensorFlow/Keras.
 
@@ -10,7 +10,7 @@ Images are resized to 224 x 224 pixels and normalized for each model. Training u
 
 ## Notebooks
 
-The executed notebooks include saved outputs for direct review. Start with **05** for the model comparison, learning curves and class-level results.
+Notebooks 01–05 include saved outputs. Start with **05** for the model comparison, learning curves and class-level results.
 
 | Notebook | Contents |
 |---|---|
@@ -22,6 +22,14 @@ The executed notebooks include saved outputs for direct review. Start with **05*
 
 Fine-tuned ResNet50V2 was selected by validation loss and achieved **23/24 correct test predictions (95.83%)**. Notebook 05 reports parameter counts, training time and accuracy for all three models.
 
+## Milestone 2 Detection Data
+
+[06 - Detection data preparation](notebooks/06_detection_data_preparation.ipynb) builds a 13-identity dataset from the shared CelebA portraits and shows the split, YOLO labels, counts, and annotated examples. It generates 234 synthetic images with 2–5 or 9 identities per frame and 1,065 labeled portrait regions. Four additional 3 × 3 grids are generated separately.
+
+Notebook 06 reads the shared portraits from `data/shared_pool/` and writes the generated dataset to `data/m2_detection/`. The six-identity Milestone 1 dataset uses `data/selected_subset/`.
+
+The repository includes the generated train/validation/test images and YOLO labels under `data/m2_detection/`, with manifests in `m2_artifacts/`. [M2_DATASET.md](M2_DATASET.md) describes the source split, composition, augmentations, annotations, and audit.
+
 ## Repository Structure
 
 ```text
@@ -29,9 +37,11 @@ notebooks/          Data preparation, training and result analysis
 src/                Dataset utilities, models and result aggregation
 utils.py            Random seed and reproducibility settings
 requirements.txt    Python dependencies
+m2_artifacts/       Detection dataset manifests and generation settings
+data/m2_detection/  Generated train/val/test images and YOLO labels
 ```
 
-Experiments write metrics, predictions, training logs and figures to `runs/<run_id>/`. Dataset images and model weights are stored separately from Git.
+Experiments write metrics, predictions, training logs and figures to `runs/<run_id>/`.
 
 ## Reproduce the Experiment
 
