@@ -1,0 +1,2 @@
+# Install a CUDA-compatible PyTorch build first when training on a GPU.
+ultralytics==8.3.253

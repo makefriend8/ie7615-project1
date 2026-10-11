@@ -1,0 +1,7 @@
+{
+  "python": "3.10.16",
+  "ultralytics": "8.3.253",
+  "torch": "2.5.1",
+  "cuda_available": true,
+  "cuda_device": "Tesla P100-PCIE-12GB"
+}

@@ -1,63 +1,69 @@
-# Celebrity Identification and Detection
+# Project 1: Celebrity Classification and Detection
 
-This project compares a custom CNN, a frozen ResNet50V2 feature extractor and a fine-tuned ResNet50V2 for classifying six CelebA identities using TensorFlow/Keras.
-
-## Dataset
-
-The selected CelebA IDs are **2619, 797, 2970, 4422, 3 and 2336**, chosen from the finalized class identity pool to include three male and three female identities. Each identity contributes 25 images: 17 for training, four for validation and four for testing, giving **102/24/24 images** overall.
-
-Images are resized to 224 x 224 pixels and normalized for each model. Training uses horizontal flips and rotations. All models share the same data split, with seed 42.
+This repository contains the work for Milestones 1–3. Milestone 1 compares classifiers for six CelebA identities; Milestone 2 prepares a labeled detection dataset covering 13 identities; Milestone 3 trains and evaluates a YOLOv8 detector on that dataset. The notebooks include saved experiment outputs.
 
 ## Notebooks
 
-Notebooks 01–05 include saved outputs. Start with **05** for the model comparison, learning curves and class-level results.
-
-| Notebook | Contents |
+| File | What it shows |
 |---|---|
-| [01 - Data preparation](notebooks/01_data_preparation.ipynb) | Identity selection, data split and image checks |
-| [02 - Custom CNN](notebooks/02_train_custom_cnn.ipynb) | Model design, training and evaluation |
-| [03 - Frozen ResNet50V2](notebooks/03_train_resnet_frozen.ipynb) | Training and evaluation with a frozen backbone |
-| [04 - Fine-tuned ResNet50V2](notebooks/04_train_resnet_finetuned.ipynb) | Backbone fine-tuning and evaluation |
-| [05 - Results analysis](notebooks/05_results_analysis.ipynb) | Model comparison, curves and confusion matrix |
+| [01_data_preparation.ipynb](notebooks/01_data_preparation.ipynb) | Selects the six Milestone 1 identities and prepares their train/validation/test split. |
+| [02_train_custom_cnn.ipynb](notebooks/02_train_custom_cnn.ipynb) | Trains and evaluates the custom CNN. |
+| [03_train_resnet_frozen.ipynb](notebooks/03_train_resnet_frozen.ipynb) | Trains and evaluates the frozen ResNet50V2 feature extractor. |
+| [04_train_resnet_finetuned.ipynb](notebooks/04_train_resnet_finetuned.ipynb) | Fine-tunes and evaluates ResNet50V2. |
+| [05_results_analysis.ipynb](notebooks/05_results_analysis.ipynb) | Compares the three classifiers, learning curves, and class-level results. |
+| [06_detection_data_preparation.ipynb](notebooks/06_detection_data_preparation.ipynb) | Builds and audits the synthetic YOLO dataset, with annotated examples. |
+| [07_yolov8_detection.ipynb](notebooks/07_yolov8_detection.ipynb) | Shows three YOLOv8 runs, validation-based selection, test metrics, predicted examples, and image inference. |
 
-Fine-tuned ResNet50V2 was selected by validation loss and achieved **23/24 correct test predictions (95.83%)**. Notebook 05 reports parameter counts, training time and accuracy for all three models.
+## Code
 
-## Milestone 2 Detection Data
+| File | Role |
+|---|---|
+| [src/config.py](src/config.py) | Fixed Milestone 1 identities and training settings. |
+| [src/data_utils.py](src/data_utils.py) | CelebA image selection, split preparation, and data checks. |
+| [src/experiment.py](src/experiment.py) | Milestone 1 run creation, source snapshot, and input checks. |
+| [src/models.py](src/models.py) | Classification models, training, checkpoint saving, and evaluation. |
+| [src/reporting.py](src/reporting.py) | Validates classification results and writes comparison data, a Markdown table, and figures. |
+| [utils.py](utils.py) | Random seeds and deterministic TensorFlow operations for classification. |
+| [src/m2_sources.py](src/m2_sources.py) | Inventories shared portraits and assigns source images to splits. |
+| [src/m2_detection.py](src/m2_detection.py) | Composes multi-person images, writes YOLO labels, and audits the dataset. |
+| [src/m3_protocol.py](src/m3_protocol.py) | Checks the detection dataset and supports box matching and IoU calculations. |
+| [src/m3_training.py](src/m3_training.py) | Trains the YOLOv8 sweep and selects a checkpoint using validation metrics. |
+| [src/m3_evaluation.py](src/m3_evaluation.py) | Computes held-out test metrics and saves ten images with predicted boxes. |
+| [src/m3_reproduce.py](src/m3_reproduce.py) | Runs the Milestone 3 stages or verifies the saved result. |
+| [demo_m3.py](demo_m3.py) | Runs the selected detector on one image and saves an annotated prediction. |
 
-[06 - Detection data preparation](notebooks/06_detection_data_preparation.ipynb) builds a 13-identity dataset from the shared CelebA portraits and shows the split, YOLO labels, counts, and annotated examples. It generates 234 synthetic images with 2–5 or 9 identities per frame and 1,065 labeled portrait regions. Four additional 3 × 3 grids are generated separately.
+## Datasets and results
 
-Notebook 06 reads the shared portraits from `data/shared_pool/` and writes the generated dataset to `data/m2_detection/`. The six-identity Milestone 1 dataset uses `data/selected_subset/`.
+| Location | Contents |
+|---|---|
+| `runs/20260926T151014Z_08ffd273/` | Milestone 1 split, model histories and metrics, comparison table and figures, and source snapshot. The six IDs are 2619, 797, 2970, 4422, 3, and 2336. |
+| `data/m2_detection/images/{train,val,test}/` and `labels/{train,val,test}/` | Synthetic detection dataset: 156/39/39 images and matching YOLO label files. |
+| `m2_artifacts/source_manifest.csv` and `object_manifest.csv` | Source-image split assignments and the source portrait and box used for each placed object. |
+| `m2_artifacts/identity_mapping.json` and `generation_config.json` | YOLO class-to-identity mapping and dataset-generation settings. [M2_DATASET.md](M2_DATASET.md) explains the dataset and annotation convention. |
+| `runs/m3/{lr001_img640,lr0005_img640,lr001_img512}/` | The three YOLOv8 runs; each contains `args.yaml`, `results.csv`, `results.png`, and `validation_metrics.json`. `runs/m3/environment.json` records the software and hardware environment. |
+| `m3_artifacts/best.pt` and `selection.json` | Selected detector checkpoint and the validation-based selection record; the selected run is `lr0005_img640`. |
+| `m3_artifacts/validation_comparison.csv` | Validation metrics for all three configurations. |
+| `m3_artifacts/test_metrics.json` and `per_class_metrics.csv` | Overall and per-identity metrics on the held-out test split. |
+| `m3_artifacts/per_image_review.json` and `test_predictions.json` | Per-image match counts and predicted boxes used to inspect detection outcomes. |
+| [m3_gallery/gallery.md](m3_gallery/gallery.md) | Ten held-out test images with predicted identity boxes and captions describing correct detections and errors. |
+| [requirements.txt](requirements.txt) and [requirements-m3.txt](requirements-m3.txt) | Classification and YOLOv8 Python dependencies, respectively. |
 
-The repository includes the generated train/validation/test images and YOLO labels under `data/m2_detection/`, with manifests in `m2_artifacts/`. [M2_DATASET.md](M2_DATASET.md) describes the source split, composition, augmentations, annotations, and audit.
+## Run the project
 
-## Repository Structure
+Use Python 3.10 and run commands from the repository root.
 
-```text
-notebooks/          Data preparation, training and result analysis
-src/                Dataset utilities, models and result aggregation
-utils.py            Random seed and reproducibility settings
-requirements.txt    Python dependencies
-m2_artifacts/       Detection dataset manifests and generation settings
-data/m2_detection/  Generated train/val/test images and YOLO labels
-```
+For Milestone 1, install `requirements.txt`, place `identity_CelebA.txt` at `data/raw/identity_CelebA.txt` and aligned images under `data/raw/img_align_celeba/`, then run notebooks 01–05 in order. For Milestone 2, the generated dataset is included; rebuilding it requires the original portraits under `data/shared_pool/<identity ID>/` and notebook 06.
 
-Experiments write metrics, predictions, training logs and figures to `runs/<run_id>/`.
-
-## Reproduce the Experiment
-
-Use Python 3.10 and install the dependencies from the repository root:
+For Milestone 3, install a PyTorch build compatible with your device, then install `requirements-m3.txt`. The command below checks the saved checkpoint and test result. In a fresh copy with the Milestone 2 dataset but without Milestone 3 results, it runs training, validation-based selection, and test evaluation:
 
 ```bash
-pip install -r requirements.txt
-jupyter lab
+python -m src.m3_reproduce --device 0
 ```
 
-Place the CelebA source files at:
+Run the single-image demo with a held-out test image:
 
-```text
-data/raw/identity_CelebA.txt
-data/raw/img_align_celeba/<image files>
+```bash
+python demo_m3.py data/m2_detection/images/test/test_0004.jpg --device 0
 ```
 
-Run notebooks **01-05 in order**. Notebook 01 prepares the split and creates the experiment directory; 02-04 train the models; 05 summarizes the saved results. Run 01 once per experiment. Save each notebook's outputs and shut down its kernel before starting the next training notebook to release GPU memory. Experiment settings are in `src/config.py`.
-
+The demo prints identity IDs, confidence scores, and boxes, and saves an annotated image. Use `--device cpu` for demo inference without a GPU.

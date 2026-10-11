@@ -1,0 +1,23 @@
+{
+  "run": "lr001_img512",
+  "lr0": 0.001,
+  "imgsz": 512,
+  "val_map50": 0.9304498200402053,
+  "val_map50_95": 0.9298636643292498,
+  "val_precision": 0.8688205449028443,
+  "val_recall": 0.8499816125832406,
+  "checkpoint": "runs/m3/lr001_img512/weights/best.pt",
+  "epochs_requested": 80,
+  "patience": 20,
+  "batch": 8,
+  "device": "0",
+  "optimizer": "AdamW",
+  "pretrained_model": "yolov8s.pt",
+  "environment": {
+    "python": "3.10.16",
+    "ultralytics": "8.3.253",
+    "torch": "2.5.1",
+    "cuda_available": true,
+    "cuda_device": "Tesla P100-PCIE-12GB"
+  }
+}
