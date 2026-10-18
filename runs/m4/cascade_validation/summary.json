@@ -1,0 +1,56 @@
+{
+  "split": "val",
+  "test_evaluated": false,
+  "counts": {
+    "images": 39,
+    "ground_truth": 175,
+    "predictions": 194,
+    "localized": 173,
+    "extra": 21,
+    "missed": 2,
+    "yolo_correct": 144,
+    "yolo_all_correct_images": 11,
+    "classifier_correct": 157,
+    "classifier_all_correct_images": 15
+  },
+  "localization": {
+    "tp": 173,
+    "fp": 21,
+    "fn": 2,
+    "precision": 0.8917525773195877,
+    "recall": 0.9885714285714285,
+    "f1": 0.9376693766937669
+  },
+  "identity": {
+    "yolo": {
+      "tp": 144,
+      "fp": 50,
+      "fn": 31,
+      "precision": 0.7422680412371134,
+      "recall": 0.8228571428571428,
+      "f1": 0.7804878048780488,
+      "accuracy_given_localized": 0.8323699421965318
+    },
+    "classifier": {
+      "tp": 157,
+      "fp": 37,
+      "fn": 18,
+      "precision": 0.8092783505154639,
+      "recall": 0.8971428571428571,
+      "f1": 0.8509485094850948,
+      "accuracy_given_localized": 0.9075144508670521
+    }
+  },
+  "matched_identity_transitions": {
+    "both_correct": 134,
+    "classifier_only_correct": 23,
+    "yolo_only_correct": 10,
+    "both_wrong": 6
+  },
+  "matching": {
+    "iou_threshold": 0.5,
+    "class_agnostic": true,
+    "rule": "Descending YOLO confidence; highest-IoU available truth; one-to-one"
+  },
+  "metric_note": "Fixed-threshold micro counts; not mAP. Wrong identity adds both identity FP and FN."
+}

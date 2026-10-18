@@ -1,0 +1,2200 @@
+[
+  {
+    "image": "images/val/val_0000.jpg",
+    "ground_truth": [
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          41,
+          197,
+          341,
+          601
+        ],
+        "source": "7007/036181.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          365,
+          178,
+          614,
+          513
+        ],
+        "source": "2970/143208.jpg"
+      }
+    ],
+    "image_sha256": "0d6b2340cc00a3827d6b267e667a94c46f9bccaed37c04f1440889f1c8df1bc6",
+    "label_sha256": "fa9ffc9815a185bab25e5a659468c5645c25efe52b7e5de98fc827676d332dae"
+  },
+  {
+    "image": "images/val/val_0001.jpg",
+    "ground_truth": [
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          21,
+          150,
+          171,
+          352
+        ],
+        "source": "2336/174486.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          201,
+          190,
+          405,
+          464
+        ],
+        "source": "4428/092565.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          433,
+          86,
+          616,
+          332
+        ],
+        "source": "797/162875.jpg"
+      }
+    ],
+    "image_sha256": "98243c7c7082276a42f8807c9e89793f364709fcc6041413482dcb222ff5eec1",
+    "label_sha256": "36cf8441e8b0fcbea0071e88be34a8a713b7460dfd4e3a5bf766b7e5f6118f9a"
+  },
+  {
+    "image": "images/val/val_0002.jpg",
+    "ground_truth": [
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          337,
+          6,
+          569,
+          318
+        ],
+        "source": "4422/143189.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          40,
+          346,
+          256,
+          636
+        ],
+        "source": "7/157832.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          29,
+          15,
+          233,
+          290
+        ],
+        "source": "3/072785.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          386,
+          368,
+          574,
+          621
+        ],
+        "source": "8335/130875.jpg"
+      }
+    ],
+    "image_sha256": "be308d15fbcde7de24999caa2a5650daab33d6f5ae1b8c9e7e2d24e8bd48f314",
+    "label_sha256": "a1e85296110d519e76db3900195157d25eeab7a517b369d4cd9f487d52de9d08"
+  },
+  {
+    "image": "images/val/val_0003.jpg",
+    "ground_truth": [
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          106,
+          20,
+          249,
+          212
+        ],
+        "source": "1212/178124.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          87,
+          443,
+          227,
+          632
+        ],
+        "source": "5695/192865.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          142,
+          230,
+          287,
+          425
+        ],
+        "source": "2619/013521.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          481,
+          247,
+          607,
+          417
+        ],
+        "source": "10002/147203.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          373,
+          2,
+          533,
+          217
+        ],
+        "source": "7007/004680.jpg"
+      }
+    ],
+    "image_sha256": "5777afb5ac87be4c0a502eb3919e0850070c81bd976b879c186a1b3917491dd9",
+    "label_sha256": "1071175b03ef53d5094f70ccf3c15d487f0d214a7ddca5b7719c8133bb9a17c6"
+  },
+  {
+    "image": "images/val/val_0004.jpg",
+    "ground_truth": [
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          214,
+          214,
+          356,
+          405
+        ],
+        "source": "2970/066991.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          24,
+          418,
+          177,
+          624
+        ],
+        "source": "2336/175969.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          218,
+          437,
+          363,
+          632
+        ],
+        "source": "4428/121977.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          448,
+          15,
+          585,
+          199
+        ],
+        "source": "797/172881.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          481,
+          230,
+          601,
+          391
+        ],
+        "source": "4422/000175.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          249,
+          15,
+          386,
+          199
+        ],
+        "source": "7/038132.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          22,
+          20,
+          159,
+          205
+        ],
+        "source": "3/147878.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          15,
+          216,
+          152,
+          400
+        ],
+        "source": "8335/055177.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          428,
+          430,
+          573,
+          626
+        ],
+        "source": "1212/168343.jpg"
+      }
+    ],
+    "image_sha256": "e4d43e395d63c4fa0fb403807ef6ee8856c766d4fd5a80808042275c4690610a",
+    "label_sha256": "c4dd112dd9dd5930df8b6822689a17fc38e27bf3a357e7d38794e48ff0909863"
+  },
+  {
+    "image": "images/val/val_0005.jpg",
+    "ground_truth": [
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          359,
+          82,
+          609,
+          418
+        ],
+        "source": "5695/196735.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          43,
+          111,
+          328,
+          495
+        ],
+        "source": "2619/071983.jpg"
+      }
+    ],
+    "image_sha256": "ca67cc52e52d70d6e9538bb404cbf0f5ad002fd1f34490ff70950410fa3d634c",
+    "label_sha256": "ea7e2a196482c6313d8f54c4fee8477f9a9ccfcb4819faa541a96efbe06c7e19"
+  },
+  {
+    "image": "images/val/val_0006.jpg",
+    "ground_truth": [
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          444,
+          221,
+          630,
+          472
+        ],
+        "source": "10002/041931.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          16,
+          205,
+          191,
+          441
+        ],
+        "source": "7007/150463.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          228,
+          153,
+          409,
+          397
+        ],
+        "source": "2970/085698.jpg"
+      }
+    ],
+    "image_sha256": "dba9eea509637be171955fa4a5cc7131790adabe5a67b9e29ab006d8a9d013af",
+    "label_sha256": "49e64e50e76c6cc45de3749fbba82793d72b0e7f31590914cbe27703b9101e28"
+  },
+  {
+    "image": "images/val/val_0007.jpg",
+    "ground_truth": [
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          363,
+          13,
+          584,
+          311
+        ],
+        "source": "2336/180987.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          48,
+          8,
+          260,
+          293
+        ],
+        "source": "4428/114753.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          39,
+          329,
+          266,
+          635
+        ],
+        "source": "797/171166.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          403,
+          359,
+          594,
+          616
+        ],
+        "source": "4422/081031.jpg"
+      }
+    ],
+    "image_sha256": "0fff6df0506c1e4c7af14dfe8cfe12bcc06cd39447da80cae6e56d527690214b",
+    "label_sha256": "d40fd973f3044055def42d7dcdb260b181709861d906bb21112ef095e3ac9ee3"
+  },
+  {
+    "image": "images/val/val_0008.jpg",
+    "ground_truth": [
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          16,
+          39,
+          198,
+          284
+        ],
+        "source": "7/017587.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          440,
+          5,
+          638,
+          271
+        ],
+        "source": "3/003029.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          232,
+          20,
+          424,
+          278
+        ],
+        "source": "8335/078132.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          454,
+          381,
+          616,
+          600
+        ],
+        "source": "1212/179589.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          241,
+          347,
+          420,
+          588
+        ],
+        "source": "5695/186404.jpg"
+      }
+    ],
+    "image_sha256": "7f5fd2eec28013672faab5d7017e64e47a06cb21d4e04d5c5159b36e4e59336c",
+    "label_sha256": "d36e8ecb270c008d4bf6679df3d403bd9ffe8130ceda3db33c9820fe0cb39beb"
+  },
+  {
+    "image": "images/val/val_0009.jpg",
+    "ground_truth": [
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          277,
+          232,
+          431,
+          439
+        ],
+        "source": "2619/077828.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          62,
+          36,
+          195,
+          215
+        ],
+        "source": "10002/108249.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          266,
+          451,
+          405,
+          638
+        ],
+        "source": "7007/158011.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          55,
+          450,
+          187,
+          628
+        ],
+        "source": "2970/014435.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          490,
+          21,
+          633,
+          214
+        ],
+        "source": "2336/164485.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          80,
+          266,
+          209,
+          439
+        ],
+        "source": "4428/092565.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          480,
+          239,
+          632,
+          444
+        ],
+        "source": "797/182078.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          485,
+          453,
+          607,
+          617
+        ],
+        "source": "4422/073849.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          285,
+          13,
+          427,
+          204
+        ],
+        "source": "7/036895.jpg"
+      }
+    ],
+    "image_sha256": "27b70212dfe629d5b4432e1e273ddda51d3d96bb3cd1beb055586ea8833bf6a0",
+    "label_sha256": "1c0999a1e4dd8a2ebf15aac7a879de70b125d3862a4587a092f5785bbb5f6910"
+  },
+  {
+    "image": "images/val/val_0010.jpg",
+    "ground_truth": [
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          347,
+          46,
+          629,
+          426
+        ],
+        "source": "3/047989.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          12,
+          103,
+          339,
+          544
+        ],
+        "source": "8335/095539.jpg"
+      }
+    ],
+    "image_sha256": "9aeaf9f9be7e39003794becf20ffd3bc9bfffc9b6013d731e2375c0a359fb28e",
+    "label_sha256": "2dd31418a8d223e50975824c9b46b3f983da2eab23700ccbd61918f5d8077268"
+  },
+  {
+    "image": "images/val/val_0011.jpg",
+    "ground_truth": [
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          67,
+          51,
+          289,
+          349
+        ],
+        "source": "1212/171256.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          75,
+          365,
+          274,
+          633
+        ],
+        "source": "5695/201941.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          352,
+          10,
+          612,
+          360
+        ],
+        "source": "2619/153337.jpg"
+      }
+    ],
+    "image_sha256": "3df54691b9c00a97b2d4d2d4bd6b00e324bbc69d0c3ffa232dfc10e2c8d8569a",
+    "label_sha256": "5b08cc1bbc14cd496936738581ff3d563c6d6bbe1cb42e5316895ca921f0bd1d"
+  },
+  {
+    "image": "images/val/val_0012.jpg",
+    "ground_truth": [
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          374,
+          26,
+          579,
+          303
+        ],
+        "source": "10002/147203.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          409,
+          355,
+          594,
+          604
+        ],
+        "source": "7007/036181.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          44,
+          369,
+          230,
+          619
+        ],
+        "source": "2970/143208.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          99,
+          33,
+          299,
+          303
+        ],
+        "source": "2336/174486.jpg"
+      }
+    ],
+    "image_sha256": "ef14b6d1c78b760755042f4fcf74055c8160dbe1f8cb19a6474d07d1a3bf1085",
+    "label_sha256": "872caf6c424e3538873df4e1e88dd5d7bc9a54dadf5f723f9f3f0e3e56190407"
+  },
+  {
+    "image": "images/val/val_0013.jpg",
+    "ground_truth": [
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          65,
+          18,
+          199,
+          198
+        ],
+        "source": "4428/121977.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          452,
+          248,
+          582,
+          424
+        ],
+        "source": "797/162875.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          404,
+          22,
+          543,
+          209
+        ],
+        "source": "4422/143189.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          53,
+          452,
+          185,
+          629
+        ],
+        "source": "7/157832.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          59,
+          226,
+          213,
+          433
+        ],
+        "source": "3/072785.jpg"
+      }
+    ],
+    "image_sha256": "aeec3f50d667c11b71e5ca7e07e5db7bc8f2ea81277570569f1dcd6ea1f92ae5",
+    "label_sha256": "20c9477a3be4a165adbe6d89683a755e71205b4e16422cea3de0b065651a8db2"
+  },
+  {
+    "image": "images/val/val_0014.jpg",
+    "ground_truth": [
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          243,
+          19,
+          400,
+          231
+        ],
+        "source": "8335/130875.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          313,
+          256,
+          431,
+          416
+        ],
+        "source": "1212/178124.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          294,
+          442,
+          427,
+          621
+        ],
+        "source": "5695/192865.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          18,
+          440,
+          149,
+          616
+        ],
+        "source": "2619/013521.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          484,
+          426,
+          613,
+          600
+        ],
+        "source": "10002/041931.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          475,
+          15,
+          633,
+          227
+        ],
+        "source": "7007/004680.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          33,
+          261,
+          137,
+          401
+        ],
+        "source": "2970/066991.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          23,
+          15,
+          171,
+          215
+        ],
+        "source": "2336/175969.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          477,
+          252,
+          596,
+          412
+        ],
+        "source": "4428/114753.jpg"
+      }
+    ],
+    "image_sha256": "a7264df18863427182ba96630d3f2c9a594388934b11664a2d6a925155084dc5",
+    "label_sha256": "63f6dbb169aa5c5fd656bf11901f73a561cece75b9685c6620df2b08a8946b7d"
+  },
+  {
+    "image": "images/val/val_0015.jpg",
+    "ground_truth": [
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          373,
+          243,
+          610,
+          562
+        ],
+        "source": "797/172881.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          20,
+          52,
+          321,
+          457
+        ],
+        "source": "4422/000175.jpg"
+      }
+    ],
+    "image_sha256": "7c8fbf66c062c577b10c3f77ae737add36f596a851f6386373e6c4c85cb82a8a",
+    "label_sha256": "f5820546886dda2f943eb6dfc61411a3eca9c18bbe8136c7f75e0c8313817975"
+  },
+  {
+    "image": "images/val/val_0016.jpg",
+    "ground_truth": [
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          383,
+          333,
+          603,
+          629
+        ],
+        "source": "7/038132.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          368,
+          7,
+          594,
+          312
+        ],
+        "source": "3/147878.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          29,
+          324,
+          241,
+          609
+        ],
+        "source": "8335/055177.jpg"
+      }
+    ],
+    "image_sha256": "b558880aaa44944514e87b648c8d23ea6349251d62a819a0a0673bc5672b2368",
+    "label_sha256": "77d44884cbf6d02e9dd807f9f9aaa607e98f533a9a5e7effedc6512adb1cbea0"
+  },
+  {
+    "image": "images/val/val_0017.jpg",
+    "ground_truth": [
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          71,
+          335,
+          288,
+          628
+        ],
+        "source": "1212/168343.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          102,
+          22,
+          289,
+          274
+        ],
+        "source": "5695/196735.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          367,
+          352,
+          557,
+          608
+        ],
+        "source": "2619/071983.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          382,
+          19,
+          587,
+          296
+        ],
+        "source": "10002/108249.jpg"
+      }
+    ],
+    "image_sha256": "c6687709066f5ce8811db0b384f1b73212e58e9cabe94a20a966dde8b6900724",
+    "label_sha256": "fc012e1939489b1c9e2d98ec5147f16ea88a3aaee54f0911a85783c5fbbf7607"
+  },
+  {
+    "image": "images/val/val_0018.jpg",
+    "ground_truth": [
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          391,
+          272,
+          509,
+          431
+        ],
+        "source": "7007/150463.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          87,
+          447,
+          212,
+          615
+        ],
+        "source": "2970/085698.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          39,
+          12,
+          209,
+          241
+        ],
+        "source": "2336/180987.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          446,
+          445,
+          581,
+          626
+        ],
+        "source": "4428/092565.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          93,
+          284,
+          203,
+          432
+        ],
+        "source": "797/171166.jpg"
+      }
+    ],
+    "image_sha256": "6bb1ca6d8b29aa09fa74d48e63dbed4df9ab943fc70c98ea258a3c1425147f60",
+    "label_sha256": "51b178fefc16a17d42adaf80f84b2398be443b46612d8ec76488132007e23fff"
+  },
+  {
+    "image": "images/val/val_0019.jpg",
+    "ground_truth": [
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          225,
+          193,
+          364,
+          380
+        ],
+        "source": "4422/081031.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          247,
+          420,
+          401,
+          627
+        ],
+        "source": "7/017587.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          39,
+          12,
+          149,
+          160
+        ],
+        "source": "3/003029.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          479,
+          201,
+          628,
+          402
+        ],
+        "source": "8335/078132.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          36,
+          217,
+          176,
+          405
+        ],
+        "source": "1212/179589.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          4,
+          417,
+          167,
+          637
+        ],
+        "source": "5695/186404.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          453,
+          434,
+          597,
+          627
+        ],
+        "source": "2619/077828.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          463,
+          5,
+          585,
+          169
+        ],
+        "source": "10002/147203.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          266,
+          17,
+          375,
+          164
+        ],
+        "source": "7007/158011.jpg"
+      }
+    ],
+    "image_sha256": "cdb0f6ad4a49e4b4a6b6b6795c37141ac157bdea8b4e5091f8d6f2a7fc4a93f2",
+    "label_sha256": "b4f490f41b61a301786f831d6462f9542fe00d7fa174064213a2401d093bac51"
+  },
+  {
+    "image": "images/val/val_0020.jpg",
+    "ground_truth": [
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          10,
+          45,
+          328,
+          473
+        ],
+        "source": "2970/014435.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          356,
+          53,
+          600,
+          382
+        ],
+        "source": "2336/164485.jpg"
+      }
+    ],
+    "image_sha256": "3623e0f95cff57ee36db0c61bfc78f2d4221156281b1ee8045be75aa1cf33c6d",
+    "label_sha256": "7ae7f28fc0469e2ab0e2dc371caaa7456be79865d9cd4a757e4ed6a993980812"
+  },
+  {
+    "image": "images/val/val_0021.jpg",
+    "ground_truth": [
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          15,
+          282,
+          228,
+          569
+        ],
+        "source": "4428/121977.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          269,
+          101,
+          453,
+          348
+        ],
+        "source": "797/182078.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          473,
+          371,
+          619,
+          568
+        ],
+        "source": "4422/073849.jpg"
+      }
+    ],
+    "image_sha256": "a310c8704dc046b68acb82fbb3480da3f2407e41cb1b30bc8f57eb5e9d6c132f",
+    "label_sha256": "6eb5483033de6e3bbbe05f5b5c2a9ae313cb94f965775a18200b6fbde4973ad3"
+  },
+  {
+    "image": "images/val/val_0022.jpg",
+    "ground_truth": [
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          371,
+          316,
+          604,
+          630
+        ],
+        "source": "7/036895.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          114,
+          35,
+          285,
+          265
+        ],
+        "source": "3/047989.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          424,
+          5,
+          613,
+          259
+        ],
+        "source": "8335/095539.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          19,
+          309,
+          234,
+          599
+        ],
+        "source": "1212/171256.jpg"
+      }
+    ],
+    "image_sha256": "dc5753f19b55a7d4a83d6afbcae7d678864fe3173dc0befc396d9354fbd2e328",
+    "label_sha256": "5be786d4544ca0ef570cbbae98d777c98568b2285a404b13321c3219a6c7d8e5"
+  },
+  {
+    "image": "images/val/val_0023.jpg",
+    "ground_truth": [
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          350,
+          211,
+          477,
+          382
+        ],
+        "source": "5695/201941.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          74,
+          404,
+          245,
+          635
+        ],
+        "source": "2619/153337.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          396,
+          432,
+          546,
+          634
+        ],
+        "source": "10002/041931.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          431,
+          26,
+          553,
+          191
+        ],
+        "source": "7007/036181.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          76,
+          8,
+          202,
+          177
+        ],
+        "source": "2970/143208.jpg"
+      }
+    ],
+    "image_sha256": "7392891aa7962e8f2e7e2648056fd6d5db3db8cc7935939e68bbcd17e05e173d",
+    "label_sha256": "943be3bc7f7f649827b622a24d1bd0de2171af18ccd2b2a85442980b2b94e721"
+  },
+  {
+    "image": "images/val/val_0024.jpg",
+    "ground_truth": [
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          502,
+          460,
+          621,
+          621
+        ],
+        "source": "2336/174486.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          11,
+          2,
+          182,
+          232
+        ],
+        "source": "4428/114753.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          222,
+          461,
+          342,
+          623
+        ],
+        "source": "797/162875.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          10,
+          459,
+          141,
+          636
+        ],
+        "source": "4422/143189.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          9,
+          238,
+          164,
+          446
+        ],
+        "source": "7/157832.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          462,
+          239,
+          618,
+          450
+        ],
+        "source": "3/072785.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          225,
+          256,
+          366,
+          446
+        ],
+        "source": "8335/130875.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          446,
+          7,
+          597,
+          210
+        ],
+        "source": "1212/178124.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          234,
+          6,
+          403,
+          234
+        ],
+        "source": "5695/192865.jpg"
+      }
+    ],
+    "image_sha256": "380d970aefcf3c03a0ea896628dbc0cef59a148924a01dc0981318f2c86b91f4",
+    "label_sha256": "c4c0daa0130b2003606ae2e6c79faaecc6225d074f9b8d9fcab01fdb3b4e3165"
+  },
+  {
+    "image": "images/val/val_0025.jpg",
+    "ground_truth": [
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          321,
+          83,
+          589,
+          444
+        ],
+        "source": "2619/013521.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          21,
+          66,
+          267,
+          397
+        ],
+        "source": "10002/108249.jpg"
+      }
+    ],
+    "image_sha256": "c019074a11f7e5a267704765cc0b5135f4af60e35543304c007357117e29dbb0",
+    "label_sha256": "5275c86789e53da4f685ed799f896aa49d93bdc07fbb0575192bfb2eff6e1f54"
+  },
+  {
+    "image": "images/val/val_0026.jpg",
+    "ground_truth": [
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          34,
+          337,
+          228,
+          599
+        ],
+        "source": "7007/004680.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          387,
+          340,
+          591,
+          615
+        ],
+        "source": "2970/066991.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          55,
+          4,
+          290,
+          320
+        ],
+        "source": "2336/175969.jpg"
+      }
+    ],
+    "image_sha256": "764cc87ad5f41d2562ba6aae6c1a092b37f267610a209d46f59500e83b22e044",
+    "label_sha256": "151800a20fc9fc4ddf8736340815d5480a5384c818dd15b55ac0fb402ca0f061"
+  },
+  {
+    "image": "images/val/val_0027.jpg",
+    "ground_truth": [
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          112,
+          52,
+          311,
+          320
+        ],
+        "source": "4428/092565.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          346,
+          10,
+          585,
+          331
+        ],
+        "source": "797/172881.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          91,
+          366,
+          272,
+          609
+        ],
+        "source": "4422/000175.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          362,
+          342,
+          553,
+          599
+        ],
+        "source": "7/038132.jpg"
+      }
+    ],
+    "image_sha256": "a010d154b696236f138fdd613c935c1fa93076acc6741160e3be6821144d86bd",
+    "label_sha256": "4323b527adf61c4c6e527f5e10ce7afd1f0ac607f137330f8581232343f9120c"
+  },
+  {
+    "image": "images/val/val_0028.jpg",
+    "ground_truth": [
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          442,
+          9,
+          631,
+          263
+        ],
+        "source": "3/147878.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          13,
+          56,
+          179,
+          279
+        ],
+        "source": "8335/055177.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          210,
+          27,
+          407,
+          292
+        ],
+        "source": "1212/168343.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          4,
+          351,
+          194,
+          607
+        ],
+        "source": "5695/196735.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          206,
+          317,
+          415,
+          598
+        ],
+        "source": "2619/071983.jpg"
+      }
+    ],
+    "image_sha256": "2416aaf11f46588b88d284f3c616e4711c180d3ce92513ca4b79b3b2ba19059d",
+    "label_sha256": "5a9df71e9927c18b3210dec4dbf5069cf27a069c21f4077c6805c8fd891f3b22"
+  },
+  {
+    "image": "images/val/val_0029.jpg",
+    "ground_truth": [
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          299,
+          14,
+          422,
+          180
+        ],
+        "source": "10002/147203.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          484,
+          453,
+          602,
+          612
+        ],
+        "source": "7007/150463.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          21,
+          200,
+          175,
+          408
+        ],
+        "source": "2970/085698.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          14,
+          2,
+          151,
+          186
+        ],
+        "source": "2336/180987.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          271,
+          205,
+          424,
+          411
+        ],
+        "source": "4428/121977.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          225,
+          448,
+          366,
+          638
+        ],
+        "source": "797/171166.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          470,
+          214,
+          619,
+          415
+        ],
+        "source": "4422/081031.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          54,
+          451,
+          187,
+          630
+        ],
+        "source": "7/017587.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          466,
+          11,
+          597,
+          187
+        ],
+        "source": "3/003029.jpg"
+      }
+    ],
+    "image_sha256": "a0203caedce5736a75b88d676a602e7b4e16badbdfe005a34c2e2f72e68961e1",
+    "label_sha256": "155a26e6a9c7103ae66de70b26043a2c1b5b296f55835eaa6588fc7ddd290fbb"
+  },
+  {
+    "image": "images/val/val_0030.jpg",
+    "ground_truth": [
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          358,
+          142,
+          622,
+          498
+        ],
+        "source": "8335/078132.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          33,
+          143,
+          305,
+          509
+        ],
+        "source": "1212/179589.jpg"
+      }
+    ],
+    "image_sha256": "584436ee7af7d2a9a237ccdee9b9e6df63bde7979de344b19149d033e6816de6",
+    "label_sha256": "24490e69f9b27cea82103858685f8971a7c79c05c92acb4b10246aaf5f1c4caf"
+  },
+  {
+    "image": "images/val/val_0031.jpg",
+    "ground_truth": [
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          412,
+          148,
+          634,
+          447
+        ],
+        "source": "5695/186404.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          223,
+          192,
+          382,
+          407
+        ],
+        "source": "2619/077828.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          3,
+          59,
+          208,
+          336
+        ],
+        "source": "10002/041931.jpg"
+      }
+    ],
+    "image_sha256": "766dbb1c38911ca83e90fcf7da0b101b9b3c70061045ebb46c2be0dad7239701",
+    "label_sha256": "675cc3dd8da62f462a9c2f9f61846da784d4787b061b23f2f9ed000fe045161b"
+  },
+  {
+    "image": "images/val/val_0032.jpg",
+    "ground_truth": [
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          408,
+          330,
+          621,
+          617
+        ],
+        "source": "7007/158011.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          379,
+          11,
+          594,
+          301
+        ],
+        "source": "2970/014435.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          33,
+          3,
+          263,
+          313
+        ],
+        "source": "2336/164485.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          54,
+          337,
+          243,
+          592
+        ],
+        "source": "4428/114753.jpg"
+      }
+    ],
+    "image_sha256": "23a1fecd7cde598541d551c40228d856b3cbee41076d61ca354daf03be77151c",
+    "label_sha256": "b77220ee3046d1277d57e01df251864d796ba45577cf8b1388424e64764ed26c"
+  },
+  {
+    "image": "images/val/val_0033.jpg",
+    "ground_truth": [
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          462,
+          392,
+          631,
+          620
+        ],
+        "source": "797/182078.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          254,
+          28,
+          438,
+          276
+        ],
+        "source": "4422/073849.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          271,
+          356,
+          447,
+          592
+        ],
+        "source": "7/036895.jpg"
+      },
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          8,
+          343,
+          207,
+          611
+        ],
+        "source": "3/047989.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          458,
+          26,
+          632,
+          261
+        ],
+        "source": "8335/095539.jpg"
+      }
+    ],
+    "image_sha256": "566549e54e986ae1d304f539e306dc16c55015d6fe8cc8e580ba1a0acca145c0",
+    "label_sha256": "afb6f606f69d8d903c3893a85265f2a0212229ebc291ce32febe03b886b63b08"
+  },
+  {
+    "image": "images/val/val_0034.jpg",
+    "ground_truth": [
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          103,
+          459,
+          219,
+          615
+        ],
+        "source": "1212/171256.jpg"
+      },
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          243,
+          202,
+          407,
+          423
+        ],
+        "source": "5695/201941.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          258,
+          448,
+          395,
+          632
+        ],
+        "source": "2619/153337.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          488,
+          453,
+          621,
+          632
+        ],
+        "source": "10002/108249.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          450,
+          199,
+          612,
+          417
+        ],
+        "source": "7007/036181.jpg"
+      },
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          18,
+          201,
+          168,
+          402
+        ],
+        "source": "2970/143208.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          448,
+          25,
+          563,
+          179
+        ],
+        "source": "2336/174486.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          40,
+          12,
+          163,
+          178
+        ],
+        "source": "4428/092565.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          251,
+          20,
+          367,
+          177
+        ],
+        "source": "797/162875.jpg"
+      }
+    ],
+    "image_sha256": "9e2703f513717762df50a0fe762d763a25469f29e5582551f746f7747b36d555",
+    "label_sha256": "dfc8c09ccf8bf3a16cc670301aa5c24281c73683f1e83def88706cc86d53ebd4"
+  },
+  {
+    "image": "images/val/val_0035.jpg",
+    "ground_truth": [
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          317,
+          117,
+          633,
+          542
+        ],
+        "source": "4422/143189.jpg"
+      },
+      {
+        "identity": "7",
+        "class_index": 1,
+        "xyxy": [
+          12,
+          162,
+          297,
+          546
+        ],
+        "source": "7/157832.jpg"
+      }
+    ],
+    "image_sha256": "769327962f8a2d313f5187d57f09a49925344bef964fc8a2a85bbc9f67034d19",
+    "label_sha256": "527294201a733749291e2809255946e09c64be968d5e44a1e35125925e7a3fe8"
+  },
+  {
+    "image": "images/val/val_0036.jpg",
+    "ground_truth": [
+      {
+        "identity": "3",
+        "class_index": 0,
+        "xyxy": [
+          252,
+          319,
+          410,
+          532
+        ],
+        "source": "3/072785.jpg"
+      },
+      {
+        "identity": "8335",
+        "class_index": 11,
+        "xyxy": [
+          22,
+          158,
+          225,
+          432
+        ],
+        "source": "8335/130875.jpg"
+      },
+      {
+        "identity": "1212",
+        "class_index": 3,
+        "xyxy": [
+          451,
+          269,
+          618,
+          494
+        ],
+        "source": "1212/178124.jpg"
+      }
+    ],
+    "image_sha256": "9c3274731ac26dbe2497a7a422808338d8ac0e20e820be311862d480e6057e3b",
+    "label_sha256": "fb11dcc5990be674e45c8c38ab6eb84f6bfa9729f3603d61c7aff79d5cf37d61"
+  },
+  {
+    "image": "images/val/val_0037.jpg",
+    "ground_truth": [
+      {
+        "identity": "5695",
+        "class_index": 9,
+        "xyxy": [
+          406,
+          337,
+          611,
+          613
+        ],
+        "source": "5695/192865.jpg"
+      },
+      {
+        "identity": "2619",
+        "class_index": 5,
+        "xyxy": [
+          87,
+          351,
+          295,
+          632
+        ],
+        "source": "2619/013521.jpg"
+      },
+      {
+        "identity": "10002",
+        "class_index": 12,
+        "xyxy": [
+          423,
+          43,
+          620,
+          308
+        ],
+        "source": "10002/147203.jpg"
+      },
+      {
+        "identity": "7007",
+        "class_index": 10,
+        "xyxy": [
+          84,
+          26,
+          286,
+          299
+        ],
+        "source": "7007/004680.jpg"
+      }
+    ],
+    "image_sha256": "f0db3265c8775b350f320d4902572ef3b3277de9cb9006cc8a2b8d486e532990",
+    "label_sha256": "b12000d7ed690eeb97b9458bd9ec44425a8a1b2655b73787855e1c709477cc2e"
+  },
+  {
+    "image": "images/val/val_0038.jpg",
+    "ground_truth": [
+      {
+        "identity": "2970",
+        "class_index": 6,
+        "xyxy": [
+          428,
+          338,
+          637,
+          619
+        ],
+        "source": "2970/066991.jpg"
+      },
+      {
+        "identity": "2336",
+        "class_index": 4,
+        "xyxy": [
+          26,
+          363,
+          210,
+          610
+        ],
+        "source": "2336/175969.jpg"
+      },
+      {
+        "identity": "4428",
+        "class_index": 8,
+        "xyxy": [
+          450,
+          47,
+          630,
+          289
+        ],
+        "source": "4428/121977.jpg"
+      },
+      {
+        "identity": "797",
+        "class_index": 2,
+        "xyxy": [
+          250,
+          37,
+          420,
+          265
+        ],
+        "source": "797/172881.jpg"
+      },
+      {
+        "identity": "4422",
+        "class_index": 7,
+        "xyxy": [
+          244,
+          387,
+          420,
+          624
+        ],
+        "source": "4422/000175.jpg"
+      }
+    ],
+    "image_sha256": "ca77a797940c182e6118cf18834b23c707ac2d845bdb995ebd878169862515e2",
+    "label_sha256": "708d6f97724fb175ae7b21c280265f629533c340bca4c2671fae7fda958e8048"
+  }
+]

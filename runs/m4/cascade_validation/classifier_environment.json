@@ -1,0 +1,9 @@
+{
+  "python": "3.10.16",
+  "tensorflow": "2.19.0",
+  "keras": "3.9.0",
+  "numpy": "1.26.4",
+  "gpu": [
+    "Tesla P100-PCIE-12GB"
+  ]
+}

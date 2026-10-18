@@ -1,0 +1,10 @@
+{
+  "python": "3.10.16",
+  "ultralytics": "8.3.253",
+  "torch": "2.5.1",
+  "cuda_available": true,
+  "gpu": [
+    "Tesla P100-PCIE-12GB"
+  ],
+  "phase_seconds_including_io": 3.6170126609504223
+}

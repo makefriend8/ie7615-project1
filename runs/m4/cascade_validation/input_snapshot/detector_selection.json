@@ -1,0 +1,28 @@
+{
+  "selected_run": "lr0005_img640",
+  "selection_rule": "Highest validation mAP50-95; mAP50 breaks ties",
+  "settings": {
+    "lr0": 0.0005,
+    "imgsz": 640,
+    "batch": 8,
+    "device": "0",
+    "epochs_requested": 80,
+    "patience": 20,
+    "pretrained_model": "yolov8s.pt",
+    "optimizer": "AdamW"
+  },
+  "validation": {
+    "val_map50_95": 0.9528526825986603,
+    "val_map50": 0.9538251623014262,
+    "val_precision": 0.8539292532464694,
+    "val_recall": 0.8913414132988634
+  },
+  "checkpoint_sha256": "316a52199d386f96379252acd8cf36302dccc19fdf380ee2a3e2049fa2d6b1ba",
+  "environment": {
+    "python": "3.10.16",
+    "ultralytics": "8.3.253",
+    "torch": "2.5.1",
+    "cuda_available": true,
+    "cuda_device": "Tesla P100-PCIE-12GB"
+  }
+}

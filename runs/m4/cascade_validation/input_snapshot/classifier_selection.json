@@ -1,0 +1,40 @@
+{
+  "selected_stage": "finetune",
+  "selection_metric": "validation_loss",
+  "validation_loss": 0.3255661129951477,
+  "warmup_best_validation_loss": 0.741534948348999,
+  "finetune_best_validation_loss": 0.3255661129951477,
+  "validation": {
+    "portrait": {
+      "images": 50,
+      "correct": 43,
+      "accuracy": 0.86
+    },
+    "crop": {
+      "images": 175,
+      "correct": 154,
+      "accuracy": 0.88
+    }
+  },
+  "class_names": [
+    "3",
+    "7",
+    "797",
+    "1212",
+    "2336",
+    "2619",
+    "2970",
+    "4422",
+    "4428",
+    "5695",
+    "7007",
+    "8335",
+    "10002"
+  ],
+  "checkpoint_sha256": "9007f3ea7391ead81fac5481c2fe79b55b8178c37319970dc3ff1be9efd00ceb",
+  "seed": 42,
+  "batch_size": 8,
+  "warmup_epochs_requested": 15,
+  "finetune_epochs_requested": 30,
+  "test_evaluated": false
+}

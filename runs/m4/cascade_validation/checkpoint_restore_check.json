@@ -1,0 +1,17 @@
+{
+  "images": 225,
+  "identity_mismatches": 0,
+  "maximum_confidence_difference": 0.0,
+  "confidence_tolerance": 0.0001,
+  "validation": {
+    "portrait": {
+      "images": 50,
+      "correct": 43
+    },
+    "crop": {
+      "images": 175,
+      "correct": 154
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,12 @@
+{
+  "train": {
+    "portrait": 217,
+    "crop": 715
+  },
+  "val": {
+    "portrait": 50,
+    "crop": 175
+  },
+  "source_manifest_sha256": "90054720b925ac51bed22e90b9f107ebf3050f58fc4c5cdf37b832b5bdc7732e",
+  "object_manifest_sha256": "bd28c84c4c01cfd395e62a13a11d22cfb781f93dacc1e8d200e55d506e289d0d"
+}

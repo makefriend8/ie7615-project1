@@ -1,0 +1,8 @@
+{
+  "python": "3.10.16",
+  "tensorflow": "2.19.0",
+  "keras": "3.9.0",
+  "gpu": [
+    "/physical_device:GPU:0"
+  ]
+}

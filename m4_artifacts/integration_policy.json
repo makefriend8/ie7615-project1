@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "policy_id": "m4_validation_frozen_20261013",
+  "selection_split": "val",
+  "test_used_for_selection": false,
+  "class_names": [
+    "3",
+    "7",
+    "797",
+    "1212",
+    "2336",
+    "2619",
+    "2970",
+    "4422",
+    "4428",
+    "5695",
+    "7007",
+    "8335",
+    "10002"
+  ],
+  "checkpoint_sha256": {
+    "classifier": "9007f3ea7391ead81fac5481c2fe79b55b8178c37319970dc3ff1be9efd00ceb",
+    "detector": "316a52199d386f96379252acd8cf36302dccc19fdf380ee2a3e2049fa2d6b1ba"
+  },
+  "detector": {
+    "image_size": 640,
+    "confidence": 0.25,
+    "nms_iou": 0.7,
+    "class_agnostic_initial_nms": false
+  },
+  "post_nms_iou": 0.7,
+  "classifier_conflict_threshold": 0.9,
+  "single_rule": "Classifier top-1 on the entire original portrait; no detector fallback",
+  "multi_rule": "Original YOLO predict; additional class-agnostic NMS by YOLO confidence; classify retained crops; on disagreement use classifier at confidence >= 0.9, otherwise use YOLO identity",
+  "validation_evidence": {
+    "archive_sha256": "d29e4b82c428f2d5adb21d13fae006c1aa6f6aab5b211cfc8c1dee84016e31c9",
+    "original_summary_sha256": "4a7f98e70eba6808cda35d3cbaa407feb28ada2226f20178ddaee81d36d9d499",
+    "candidate_count": 8,
+    "selection_metric": "Highest fixed-threshold micro identity F1 among eight recorded exploratory validation candidates",
+    "expected_counts": {
+      "images": 39,
+      "ground_truth": 175,
+      "predictions": 174,
+      "localized": 173,
+      "extra": 1,
+      "missed": 2,
+      "final_correct": 161,
+      "final_all_correct_images": 28
+    }
+  },
+  "limitations": [
+    "Validation tuning is exploratory; final test is required for generalization claims.",
+    "Classifier confidence is uncalibrated and is not compared with YOLO confidence.",
+    "Post-NMS may suppress overlapping different people on natural photographs; validation images are synthetic.",
+    "Single-image inputs use explicit single mode; multi-image inputs use explicit multi mode."
+  ]
+}

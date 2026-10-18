@@ -1,0 +1,35 @@
+{
+  "split": "val",
+  "test_evaluated": false,
+  "source": "/home/zhang.jiaso/ondemand/data/sys/dashboard/batch_connect/sys/jupyterlab-ml-courses/ie7615-project1/data/shared_pool",
+  "dataset": "/home/zhang.jiaso/ondemand/data/sys/dashboard/batch_connect/sys/jupyterlab-ml-courses/ie7615-project1/data/m2_detection",
+  "classifier_run": "/home/zhang.jiaso/ondemand/data/sys/dashboard/batch_connect/sys/jupyterlab-ml-courses/ie7615-project1/runs/m4/classifier13",
+  "class_names": [
+    "3",
+    "7",
+    "797",
+    "1212",
+    "2336",
+    "2619",
+    "2970",
+    "4422",
+    "4428",
+    "5695",
+    "7007",
+    "8335",
+    "10002"
+  ],
+  "device": "0",
+  "batch_size": 8,
+  "confidence": 0.25,
+  "nms_iou": 0.7,
+  "match_iou": 0.5,
+  "image_size": 640,
+  "classifier_checkpoint": "/home/zhang.jiaso/ondemand/data/sys/dashboard/batch_connect/sys/jupyterlab-ml-courses/ie7615-project1/runs/m4/classifier13/best.weights.h5",
+  "detector_checkpoint": "/home/zhang.jiaso/ondemand/data/sys/dashboard/batch_connect/sys/jupyterlab-ml-courses/ie7615-project1/m3_artifacts/best.pt",
+  "checkpoint_sha256": {
+    "classifier": "9007f3ea7391ead81fac5481c2fe79b55b8178c37319970dc3ff1be9efd00ceb",
+    "detector": "316a52199d386f96379252acd8cf36302dccc19fdf380ee2a3e2049fa2d6b1ba"
+  },
+  "crop_preprocessing": "RGB; clipped floor/ceil predicted box; bilinear resize 224x224; raw float32 0..255; model ResNetV2 preprocessing"
+}
